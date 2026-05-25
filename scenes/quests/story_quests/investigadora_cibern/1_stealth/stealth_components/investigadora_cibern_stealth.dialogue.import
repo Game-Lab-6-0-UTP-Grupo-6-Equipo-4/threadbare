@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://clnefukttesux"
+path="res://.godot/imported/investigadora_cibern_stealth.dialogue-c940a5a20f52afa5fe97c8826687e7f8.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/investigadora_cibern/1_stealth/stealth_components/investigadora_cibern_stealth.dialogue"
+dest_files=["res://.godot/imported/investigadora_cibern_stealth.dialogue-c940a5a20f52afa5fe97c8826687e7f8.tres"]
+
+[params]
+
+defaults=true

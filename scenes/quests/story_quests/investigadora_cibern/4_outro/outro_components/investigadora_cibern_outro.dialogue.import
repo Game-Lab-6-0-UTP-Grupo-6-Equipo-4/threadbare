@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bgm5qbqeehf45"
+path="res://.godot/imported/investigadora_cibern_outro.dialogue-0ee9a1689433e1511f3674fc55506a30.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/investigadora_cibern/4_outro/outro_components/investigadora_cibern_outro.dialogue"
+dest_files=["res://.godot/imported/investigadora_cibern_outro.dialogue-0ee9a1689433e1511f3674fc55506a30.tres"]
+
+[params]
+
+defaults=true

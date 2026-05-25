@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://chendxn5nl7sp"
+path="res://.godot/imported/investigadora_cibern_combat.dialogue-6ec9b275d039600057ee145eb30cc1a4.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/investigadora_cibern/2_combat/combat_components/investigadora_cibern_combat.dialogue"
+dest_files=["res://.godot/imported/investigadora_cibern_combat.dialogue-6ec9b275d039600057ee145eb30cc1a4.tres"]
+
+[params]
+
+defaults=true

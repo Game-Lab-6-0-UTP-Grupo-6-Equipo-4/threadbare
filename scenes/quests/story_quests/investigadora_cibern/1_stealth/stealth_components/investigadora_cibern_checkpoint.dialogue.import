@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://frooyw52yonu"
+path="res://.godot/imported/investigadora_cibern_checkpoint.dialogue-fd77543425d93641ad80961337cfc630.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/investigadora_cibern/1_stealth/stealth_components/investigadora_cibern_checkpoint.dialogue"
+dest_files=["res://.godot/imported/investigadora_cibern_checkpoint.dialogue-fd77543425d93641ad80961337cfc630.tres"]
+
+[params]
+
+defaults=true
