@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://mftca32arc3q"
+path="res://.godot/imported/investigadora_cibern_collected.dialogue-75b802d63e790ea121c2a2ec89477e6d.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/investigadora_cibern/1_stealth/stealth_components/investigadora_cibern_collected.dialogue"
+dest_files=["res://.godot/imported/investigadora_cibern_collected.dialogue-75b802d63e790ea121c2a2ec89477e6d.tres"]
+
+[params]
+
+defaults=true
