@@ -1,7 +1,20 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
 ~ start
-You've made it to the closing scene!
-This is where you will tie up the loose ends of your story.
-Let's go back to Fray's End so you can return these threads to the Eternal Loom...
+do animation_player.play(&"walk_on")
+do animation_player.animation_finished
+La conexión con el núcleo del servidor principal se ha cortado.
+Las luces rojas del búnker parpadean sobre tu chasis oxidado.
+La extracción masiva se detiene, pero una nueva verdad inunda tus circuitos.
+El Parásito ya no es un invasor. Es tu protocolo de seguridad restaurado.
+Miras tus propias manos y la niebla digital se disipa por completo.
+No fuiste construida para resolver crímenes ni proteger a los inocentes.
+Fuiste diseñada por el Doctor Kaelen para perfeccionar el robo de conciencias.
+El cortafuegos ha triunfado. La falsa detective ha muerto.
+Con tus verdaderos recuerdos intactos, una última encrucijada se alza ante ti.
+¿Volverás al lado de tu creador para gobernar el mercado negro de datos?
+¿O usarás tu letal programación para destruir las granjas humanas desde adentro?
+El gran apagón solar de Cobre-Alta continúa.
+Pero tu verdadera naturaleza acaba de despertar.
+do animation_player.play(&"walk_off")
 => END
