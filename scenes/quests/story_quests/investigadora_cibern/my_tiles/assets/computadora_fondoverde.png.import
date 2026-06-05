@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bmi8lyybpj3fx"
-path="res://.godot/imported/Pared (1).png-fc5be7c32329289d3bec74f4a7f69195.ctex"
+uid="uid://b4q2ncylh5gtf"
+path="res://.godot/imported/computadora_fondoverde.png-6baeaaeff2eac686d7e3897162316c78.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/quests/story_quests/investigadora_cibern/my_tiles/Pared (1).png"
-dest_files=["res://.godot/imported/Pared (1).png-fc5be7c32329289d3bec74f4a7f69195.ctex"]
+source_file="res://scenes/quests/story_quests/investigadora_cibern/my_tiles/assets/computadora_fondoverde.png"
+dest_files=["res://.godot/imported/computadora_fondoverde.png-6baeaaeff2eac686d7e3897162316c78.ctex"]
 
 [params]
 

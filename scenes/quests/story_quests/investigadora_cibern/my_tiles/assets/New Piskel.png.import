@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c2e3pym00tosl"
-path="res://.godot/imported/pantalla.png-589a783ae513120b58574ab8f2727196.ctex"
+uid="uid://c7rt81n7boj4n"
+path="res://.godot/imported/New Piskel.png-8a9bbed8443e0f5208b126566f3fe2c6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/quests/story_quests/investigadora_cibern/my_tiles/pantalla.png"
-dest_files=["res://.godot/imported/pantalla.png-589a783ae513120b58574ab8f2727196.ctex"]
+source_file="res://scenes/quests/story_quests/investigadora_cibern/my_tiles/assets/New Piskel.png"
+dest_files=["res://.godot/imported/New Piskel.png-8a9bbed8443e0f5208b126566f3fe2c6.ctex"]
 
 [params]
 

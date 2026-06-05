@@ -1,7 +1,7 @@
 [gd_resource type="TileSet" format=3 uid="uid://cekckq8v500yu"]
 
-[ext_resource type="Texture2D" uid="uid://c7rt81n7boj4n" path="res://scenes/quests/story_quests/investigadora_cibern/my_tiles/New Piskel.png" id="1_s67uf"]
-[ext_resource type="Texture2D" uid="uid://bikbt1pdvscv1" path="res://scenes/quests/story_quests/investigadora_cibern/my_tiles/Suelo.png" id="2_je4c5"]
+[ext_resource type="Texture2D" uid="uid://c7rt81n7boj4n" path="res://scenes/quests/story_quests/investigadora_cibern/my_tiles/assets/New Piskel.png" id="1_s67uf"]
+[ext_resource type="Texture2D" uid="uid://bikbt1pdvscv1" path="res://scenes/quests/story_quests/investigadora_cibern/my_tiles/assets/Suelo.png" id="2_s67uf"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_riy3o"]
 texture = ExtResource("1_s67uf")
@@ -105,7 +105,7 @@ texture_region_size = Vector2i(64, 64)
 3:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(26.311012, 27.803833, 27.057419, -26.31101, 32, -32, 32, 32, -32, 32, -32, -32, 32, -32, 27.803833, -27.057423, -26.311012, -27.057423, -25.937809, 27.803833)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tcpgw"]
-texture = ExtResource("2_je4c5")
+texture = ExtResource("2_s67uf")
 texture_region_size = Vector2i(64, 64)
 0:0/0 = 0
 1:0/0 = 0

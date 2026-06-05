@@ -1,6 +1,6 @@
 [gd_resource type="TileSet" format=3 uid="uid://b5wayfvho1nec"]
 
-[ext_resource type="Texture2D" uid="uid://c2e3pym00tosl" path="res://scenes/quests/story_quests/investigadora_cibern/my_tiles/pantalla.png" id="1_eb21m"]
+[ext_resource type="Texture2D" uid="uid://c2e3pym00tosl" path="res://scenes/quests/story_quests/investigadora_cibern/my_tiles/assets/pantalla.png" id="1_eb21m"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ctgwo"]
 texture = ExtResource("1_eb21m")

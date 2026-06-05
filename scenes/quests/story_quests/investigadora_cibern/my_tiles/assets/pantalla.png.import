@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bikbt1pdvscv1"
-path="res://.godot/imported/Suelo.png-88462a85c84f2b53ccf7069f240d7d50.ctex"
+uid="uid://c2e3pym00tosl"
+path="res://.godot/imported/pantalla.png-e371cf519585ea950c4b2e2cfa36309c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/quests/story_quests/investigadora_cibern/my_tiles/Suelo.png"
-dest_files=["res://.godot/imported/Suelo.png-88462a85c84f2b53ccf7069f240d7d50.ctex"]
+source_file="res://scenes/quests/story_quests/investigadora_cibern/my_tiles/assets/pantalla.png"
+dest_files=["res://.godot/imported/pantalla.png-e371cf519585ea950c4b2e2cfa36309c.ctex"]
 
 [params]
 
