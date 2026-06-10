@@ -1,8 +1,6 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
 ~ start
-do animation_player.play(&"walk_on")
-do animation_player.animation_finished
 La conexión con el núcleo del servidor principal se ha cortado.
 Las luces rojas del búnker parpadean sobre tu chasis oxidado.
 La extracción masiva se detiene, pero una nueva verdad inunda tus circuitos.
@@ -16,5 +14,4 @@ Con tus verdaderos recuerdos intactos, una última encrucijada se alza ante ti.
 ¿O usarás tu letal programación para destruir las granjas humanas desde adentro?
 El gran apagón solar de Cobre-Alta continúa.
 Pero tu verdadera naturaleza acaba de despertar.
-do animation_player.play(&"walk_off")
 => END
