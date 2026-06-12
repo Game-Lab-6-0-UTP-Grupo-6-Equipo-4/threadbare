@@ -12,7 +12,8 @@
 [ext_resource type="PackedScene" uid="uid://v3usqiwy5wpr" path="res://scenes/game_elements/props/decoration/rock/rock.tscn" id="6_qupdm"]
 [ext_resource type="Texture2D" uid="uid://b4q2ncylh5gtf" path="res://scenes/quests/story_quests/investigadora_cibern/my_tiles/assets/computadora_fondoverde.png" id="7_pubq6"]
 [ext_resource type="SpriteFrames" uid="uid://beoisty8pffmk" path="res://scenes/quests/story_quests/investigadora_cibern/my_tiles/pared_anim.tres" id="8_gajni"]
-[ext_resource type="TileSet" uid="uid://f4f1yl1k2ryd" path="res://scenes/quests/story_quests/investigadora_cibern/my_tiles/pared_anim_TileMapLayer.tres" id="9_pubq6"]
+[ext_resource type="PackedScene" uid="uid://due8sqsrtdke1" path="res://scenes/quests/story_quests/shjourney/Otros_componentes/fire_fly.tscn" id="9_pubq6"]
+[ext_resource type="PackedScene" uid="uid://bsmdyodivjfil" path="res://scenes/quests/story_quests/investigadora_cibern/my_tiles/assets/hongos.tscn" id="10_dblyp"]
 
 [sub_resource type="Animation" id="Animation_gajni"]
 length = 0.001
@@ -148,18 +149,33 @@ position = Vector2(770, 227)
 scale = Vector2(0.802083, 0.802083)
 texture = ExtResource("7_pubq6")
 
-[node name="TileMapLayer" type="TileMapLayer" parent="TileMapLayers" unique_id=688647856]
-modulate = Color(0.56416005, 0.56416005, 0.5641597, 1)
-position = Vector2(652, 217)
-scale = Vector2(0.99609375, 1.0661563)
-tile_set = ExtResource("9_pubq6")
-
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="TileMapLayers" unique_id=401045336]
 modulate = Color(0.56416005, 0.56416005, 0.5641597, 1)
 position = Vector2(320, 320)
 sprite_frames = ExtResource("8_gajni")
 animation = &"blink"
 autoplay = "blink"
+
+[node name="Fireflies" type="Node2D" parent="TileMapLayers" unique_id=787381884]
+position = Vector2(363, 229)
+
+[node name="FireFly" parent="TileMapLayers/Fireflies" unique_id=815846306 instance=ExtResource("9_pubq6")]
+position = Vector2(-265, 260)
+
+[node name="FireFly2" parent="TileMapLayers/Fireflies" unique_id=894542635 instance=ExtResource("9_pubq6")]
+position = Vector2(-86, 238)
+
+[node name="FireFly3" parent="TileMapLayers/Fireflies" unique_id=1798016896 instance=ExtResource("9_pubq6")]
+position = Vector2(134, 244)
+
+[node name="FireFly4" parent="TileMapLayers/Fireflies" unique_id=1347766788 instance=ExtResource("9_pubq6")]
+position = Vector2(345, 259)
+
+[node name="FireFly5" parent="TileMapLayers/Fireflies" unique_id=515548990 instance=ExtResource("9_pubq6")]
+position = Vector2(543, 238)
+
+[node name="Node2D" parent="TileMapLayers/Fireflies" unique_id=688118958 instance=ExtResource("10_dblyp")]
+position = Vector2(116, 252)
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1064875179]
 position = Vector2(153, 366)
@@ -170,6 +186,14 @@ limit_right = 960
 limit_bottom = 540
 position_smoothing_enabled = true
 editor_draw_limits = true
+
+[node name="Darkness" type="Node2D" parent="Camera2D" unique_id=552113463]
+
+[node name="CanvasModulate" type="CanvasModulate" parent="Camera2D/Darkness" unique_id=485642916]
+color = Color(0, 0, 0, 1)
+
+[node name="DirectionalLight2D" type="DirectionalLight2D" parent="Camera2D/Darkness/CanvasModulate" unique_id=292434892]
+color = Color(0.4039714, 0.3801935, 0.8292983, 1)
 
 [node name="OnTheGround" type="Node2D" parent="." unique_id=836096441]
 y_sort_enabled = true
