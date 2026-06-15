@@ -408,7 +408,7 @@ modulate = Color(18.892157, 18.892157, 18.892157, 1)
 scroll_scale = Vector2(1.9, 1.3)
 
 [node name="Fireflies" type="Node2D" parent="." unique_id=1332597268]
-position = Vector2(363, 229)
+position = Vector2(428, 303)
 
 [node name="FireFly" parent="Fireflies" unique_id=953804739 instance=ExtResource("4_u7gwd")]
 
