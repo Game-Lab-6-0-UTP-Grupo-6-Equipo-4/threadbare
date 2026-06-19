@@ -11,6 +11,7 @@ bounce = 1.0
 size = Vector2(44, 44)
 
 [node name="InvestigadoraCibernProjectile" type="RigidBody2D" unique_id=1611529190 groups=["projectiles"]]
+top_level = true
 collision_layer = 256
 collision_mask = 80
 mass = 0.3
@@ -27,6 +28,7 @@ shape = SubResource("RectangleShape2D_y6iyt")
 
 [node name="VisibleThings" type="Node2D" parent="." unique_id=1129773837]
 unique_name_in_owner = true
+modulate = Color(0.54509807, 0.18039216, 0.9019608, 1)
 position = Vector2(-3, 0)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="VisibleThings" unique_id=1816818143]
