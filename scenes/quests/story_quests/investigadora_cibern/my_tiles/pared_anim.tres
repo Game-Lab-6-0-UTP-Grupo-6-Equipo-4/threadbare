@@ -1,0 +1,40 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://beoisty8pffmk"]
+
+[ext_resource type="Texture2D" uid="uid://bmi8lyybpj3fx" path="res://scenes/quests/story_quests/investigadora_cibern/my_tiles/assets/Pared (1).png" id="1_k0v07"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1dfx7"]
+atlas = ExtResource("1_k0v07")
+region = Rect2(256, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dak4y"]
+atlas = ExtResource("1_k0v07")
+region = Rect2(0, 0, 256, 256)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1dfx7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1dfx7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1dfx7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dak4y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1dfx7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dak4y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dak4y")
+}],
+"loop": true,
+"name": &"blink",
+"speed": 4.0
+}]

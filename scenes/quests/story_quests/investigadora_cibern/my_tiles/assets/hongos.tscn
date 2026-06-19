@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://bsmdyodivjfil"]
+
+[sub_resource type="Gradient" id="Gradient_itg60"]
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_jbfud"]
+gradient = SubResource("Gradient_itg60")
+use_hdr = true
+fill = 2
+fill_from = Vector2(0.5, 0.5)
+metadata/_snap_count = 2
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_rirkp"]
+blend_mode = 1
+light_mode = 2
+
+[sub_resource type="Gradient" id="Gradient_vw6rp"]
+interpolation_mode = 1
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
+metadata/_snap_count = 2
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_nmtpb"]
+gradient = SubResource("Gradient_vw6rp")
+use_hdr = true
+fill = 2
+fill_from = Vector2(0.5, 0.5)
+
+[node name="Node2D" type="Node2D" unique_id=688118958]
+
+[node name="PointLight2D" type="PointLight2D" parent="." unique_id=1820907658]
+modulate = Color(1, 1, 1, 0.24313726)
+self_modulate = Color(1, 1, 1, 0)
+scale = Vector2(16, 1)
+color = Color(1, 1, 1, 0.2509804)
+energy = 0.0
+texture = SubResource("GradientTexture2D_jbfud")
+
+[node name="Sprite2D" type="Sprite2D" parent="PointLight2D" unique_id=1502486888]
+modulate = Color(1, 1, 1, 0.42352942)
+self_modulate = Color(1, 1, 1, 0.3647059)
+material = SubResource("CanvasItemMaterial_rirkp")
+texture = SubResource("GradientTexture2D_nmtpb")
