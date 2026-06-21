@@ -95,15 +95,19 @@ drag_horizontal_offset = -1.0
 editor_draw_limits = true
 editor_draw_drag_margin = true
 
-[node name="ThrowingNPC" parent="OnTheGround" unique_id=1243855514 instance=ExtResource("10_c703l")]
-top_level = true
-position = Vector2(1664, -1092)
+[node name="EnemyWrapper" type="Node2D" parent="OnTheGround" unique_id=1124077855]
+position = Vector2(1660, -1100)
+scale = Vector2(0.8, 0.8)
+
+[node name="ThrowingNPC" parent="OnTheGround/EnemyWrapper" unique_id=1243855514 instance=ExtResource("10_c703l")]
 sprite_frames = ExtResource("11_k4tm5")
 projectile_scene = ExtResource("12_pvsub")
 
-[node name="ThrowingNPC2" parent="OnTheGround" unique_id=1306999292 instance=ExtResource("10_c703l")]
-top_level = true
-position = Vector2(2949, -1084)
+[node name="EnemyWrapper2" type="Node2D" parent="OnTheGround" unique_id=963672285]
+position = Vector2(2952, -1099)
+scale = Vector2(0.8, 0.8)
+
+[node name="ThrowingNPC2" parent="OnTheGround/EnemyWrapper2" unique_id=1306999292 instance=ExtResource("10_c703l")]
 sprite_frames = ExtResource("11_k4tm5")
 projectile_scene = ExtResource("12_pvsub")
 projectile_speed = 70.0
