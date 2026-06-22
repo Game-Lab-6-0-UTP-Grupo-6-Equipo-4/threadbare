@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dvbvjkpnxknms"]
 
 [ext_resource type="Script" uid="uid://bofv3bcwj3rx2" path="res://scenes/game_elements/props/projectile/components/projectile.gd" id="1_t4lqk"]
-[ext_resource type="SpriteFrames" uid="uid://cy41b4xo73rnh" path="res://scenes/quests/story_quests/investigadora_cibern/2_combat/combat_components/investigadora_cibern_projectile_spriteframes.tres" id="2_lnn8k"]
+[ext_resource type="SpriteFrames" uid="uid://cy41b4xo73rnh" path="res://scenes/quests/story_quests/investigadora_cibern/3_combat/combat_components/investigadora_cibern_projectile_spriteframes.tres" id="2_lnn8k"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_0h351"]
 friction = 0.0

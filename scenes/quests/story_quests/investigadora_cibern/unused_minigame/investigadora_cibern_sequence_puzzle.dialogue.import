@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://du35frnwrt8ex"
+path="res://.godot/imported/investigadora_cibern_sequence_puzzle.dialogue-70832c4ad4b38571907abcba7af27b38.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/investigadora_cibern/unused_minigame/investigadora_cibern_sequence_puzzle.dialogue"
+dest_files=["res://.godot/imported/investigadora_cibern_sequence_puzzle.dialogue-70832c4ad4b38571907abcba7af27b38.tres"]
+
+[params]
+
+defaults=true
