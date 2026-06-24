@@ -1,32 +1,33 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
+
 ~ start
-Arun: La investigadora cibernética comienza a fallar.
+Silas: La investigadora cibernética comienza a fallar.
 Su percepción de la realidad comienza a verse afectada.
 Siente que su mente se nubla.
 Ve que se oscurece su entorno 
-ya que la oscuridad esta consumiendo todo.
+ya que la oscuridad está consumiendo todo.
 Por eso debe correr, sin detenerse o mirar atrás. 
-Corre y encuentra el camino…Texto basea
+Corre y encuentra el camino…
 
 ~ interact
-Arun: Move quickly, StoryWeaver. Remember: you can run!
+Silas: ¡Muévete rápido, Elara! Recuerda: ¡puedes correr!
 => END
 
 ~ well_done
 if spirit_thread.revealed:
 	=> take_the_thread
-Arun: You made it, StoryWeaver.
-Arun: The people of Fray's End will be thrilled to hear how you outran the Void.
-StoryWeaver: Not to mention how you got over here without me seeing you!
-Arun: Yes yes, that too.
+Silas: Lo lograste, Elara.
+Silas: Las pandillas de Cobre-Alta se quedarán con las ganas de atraparte en la oscuridad esta vez.
+Elara: Sin mencionar que lograste llegar a la zona segura antes que yo, ¡y sin que te viera!
+Silas: Sí, sí, gajes de moverse por el mercado negro de datos.
 
 do wait(0.5)
 do spirit_thread.reveal()
 do wait(0.5)
 
-Arun: Aha! Another thread, this time of Spirit.
+Silas: ¡Ajá! Una cinta VHS. Esto debe contener los datos encriptados que buscamos.
 
 ~ take_the_thread
-Arun: Take the thread, and let's get going. We're nearly there!
+Silas: Toma la cinta y vámonos. ¡Estamos muy cerca de descubrir la verdad!
 => END
