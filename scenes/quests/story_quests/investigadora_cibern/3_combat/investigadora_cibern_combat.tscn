@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://pk3ucq7e2eah" path="res://scenes/game_logic/player_mode.gd" id="1_h2eeg"]
 [ext_resource type="Script" uid="uid://x1mxt6bmei2o" path="res://scenes/ui_elements/cinematic/cinematic.gd" id="2_m4tti"]
-[ext_resource type="Resource" uid="uid://chendxn5nl7sp" path="res://scenes/quests/story_quests/investigadora_cibern/2_combat/combat_components/investigadora_cibern_combat.dialogue" id="3_d5dkc"]
+[ext_resource type="Resource" uid="uid://chendxn5nl7sp" path="res://scenes/quests/story_quests/investigadora_cibern/3_combat/combat_components/investigadora_cibern_combat.dialogue" id="3_d5dkc"]
 [ext_resource type="Script" uid="uid://cp54mgi54nywo" path="res://scenes/game_logic/fill_game_logic.gd" id="4_t8fhs"]
 [ext_resource type="TileSet" uid="uid://dfdsqbbb7ayop" path="res://scenes/quests/story_quests/investigadora_cibern/tiles/investigadora_cibern_exterior_floors.tres" id="5_fm3du"]
 [ext_resource type="TileSet" uid="uid://ci5ilbqw7kv3t" path="res://scenes/quests/story_quests/investigadora_cibern/tiles/investigadora_cibern_shadows.tres" id="6_2kfmn"]
@@ -13,10 +13,10 @@
 [ext_resource type="PackedScene" uid="uid://iu2q66clupc6" path="res://scenes/game_elements/characters/player/player.tscn" id="8_yfl7k"]
 [ext_resource type="SpriteFrames" uid="uid://butju16yy6mq6" path="res://scenes/quests/story_quests/investigadora_cibern/player_components/investigadora_cibern_player.tres" id="9_6s2b1"]
 [ext_resource type="PackedScene" uid="uid://b82nsrh332syj" path="res://scenes/game_elements/characters/enemies/throwing_enemy/throwing_enemy.tscn" id="10_c703l"]
-[ext_resource type="SpriteFrames" uid="uid://fhqfca6iclo5" path="res://scenes/quests/story_quests/investigadora_cibern/2_combat/combat_components/investigadora_cibern_throwing_enemy.tres" id="11_k4tm5"]
-[ext_resource type="PackedScene" uid="uid://dvbvjkpnxknms" path="res://scenes/quests/story_quests/investigadora_cibern/2_combat/combat_components/investigadora_cibern_projectile.tscn" id="12_pvsub"]
+[ext_resource type="SpriteFrames" uid="uid://fhqfca6iclo5" path="res://scenes/quests/story_quests/investigadora_cibern/3_combat/combat_components/investigadora_cibern_throwing_enemy.tres" id="11_k4tm5"]
+[ext_resource type="PackedScene" uid="uid://dvbvjkpnxknms" path="res://scenes/quests/story_quests/investigadora_cibern/3_combat/combat_components/investigadora_cibern_projectile.tscn" id="12_pvsub"]
 [ext_resource type="PackedScene" uid="uid://y8ha8abfyap2" path="res://scenes/game_elements/props/filling_barrel/filling_barrel.tscn" id="13_ql5nc"]
-[ext_resource type="SpriteFrames" uid="uid://cdi5ardxknwwb" path="res://scenes/quests/story_quests/investigadora_cibern/2_combat/combat_components/investigadora_cibern_target_spriteframes.tres" id="14_tmygs"]
+[ext_resource type="SpriteFrames" uid="uid://cdi5ardxknwwb" path="res://scenes/quests/story_quests/investigadora_cibern/3_combat/combat_components/investigadora_cibern_target_spriteframes.tres" id="14_tmygs"]
 [ext_resource type="PackedScene" uid="uid://fuhl3l6gxq5k" path="res://scenes/game_elements/props/collectible_item/collectible_item.tscn" id="15_1xahe"]
 [ext_resource type="Script" uid="uid://bgmwplmj3bfls" path="res://scenes/globals/game_state/inventory/inventory_item.gd" id="16_i06jm"]
 [ext_resource type="PackedScene" uid="uid://dmevaymmt6wco" path="res://scenes/game_elements/props/powerup/powerup.tscn" id="17_awjnb"]
@@ -126,7 +126,7 @@ unique_name_in_owner = true
 top_level = true
 position = Vector2(2300, -1326)
 revealed = false
-next_scene = "uid://b64jj0x0lpfqr"
+next_scene = "uid://cws53u3op2gt"
 item = SubResource("Resource_0bdfp")
 collected_dialogue = ExtResource("3_d5dkc")
 dialogue_title = &"well_done"
