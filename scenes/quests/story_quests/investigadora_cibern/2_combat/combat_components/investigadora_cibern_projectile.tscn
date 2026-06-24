@@ -42,6 +42,7 @@ position = Vector2(-40, 0)
 
 [node name="DurationTimer" type="Timer" parent="." unique_id=259732970]
 unique_name_in_owner = true
+wait_time = 4.0
 
 [node name="HitSound" type="AudioStreamPlayer2D" parent="." unique_id=1862098516]
 unique_name_in_owner = true
