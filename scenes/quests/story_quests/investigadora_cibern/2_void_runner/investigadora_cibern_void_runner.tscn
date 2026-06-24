@@ -102,7 +102,7 @@ editor_draw_limits = true
 unique_name_in_owner = true
 position = Vector2(2943, -135)
 revealed = false
-next_scene = "uid://b64jj0x0lpfqr"
+next_scene = "uid://qty25u4ds0wl"
 item = SubResource("Resource_6rywr")
 
 [node name="VoidSpreadingEnemy" parent="OnTheGround" unique_id=1007896559 node_paths=PackedStringArray("void_layer", "idle_patrol_path") instance=ExtResource("12_cqkgs")]
