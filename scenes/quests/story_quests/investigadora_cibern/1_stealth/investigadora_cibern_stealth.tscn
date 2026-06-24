@@ -529,7 +529,8 @@ debug_color = Color(0, 0, 0, 0.42)
 [node name="HUD" parent="." unique_id=1994868895 instance=ExtResource("11_jd0ds")]
 
 [node name="CollectibleItem" parent="." unique_id=1779229490 instance=ExtResource("12_kp853")]
-position = Vector2(-5027, -1363)
+z_index = 1
+position = Vector2(-5003, -1359)
 next_scene = "uid://cnp77utmfe6k8"
 item = SubResource("Resource_f7nsq")
 collected_dialogue = ExtResource("14_j8vwm")
@@ -838,3 +839,9 @@ scale = Vector2(1.2307764, 1.1713622)
 z_index = 1
 position = Vector2(-4600, 296)
 scale = Vector2(1.2307764, 1.1713622)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1012194155]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D" unique_id=1097965918]
+position = Vector2(-1111, -556)
+polygon = PackedVector2Array(-36, 0, -166, 129, -320, 261, -254, 252, -181, 198, -87, 112, 35, -10, 93, -98, 107, -164, 78, -174, 33, -79)
