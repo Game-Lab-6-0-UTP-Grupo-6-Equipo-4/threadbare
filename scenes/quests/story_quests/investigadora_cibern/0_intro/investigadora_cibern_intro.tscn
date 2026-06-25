@@ -191,9 +191,9 @@ position = Vector2(116, 252)
 position = Vector2(153, 366)
 zoom = Vector2(1.4, 1.4)
 limit_left = 0
-limit_top = 0
+limit_top = 4
 limit_right = 960
-limit_bottom = 540
+limit_bottom = 544
 position_smoothing_enabled = true
 editor_draw_limits = true
 
