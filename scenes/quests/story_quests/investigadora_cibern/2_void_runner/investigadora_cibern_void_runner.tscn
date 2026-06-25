@@ -1,6 +1,6 @@
 [gd_scene format=4 uid="uid://cnp77utmfe6k8"]
 
-[ext_resource type="Script" uid="uid://c0txelutrcr" path="res://scenes/quests/story_quests/investigadora_cibern/2_void_runner/components/tutorial_void_runner.gd" id="1_e2tsu"]
+[ext_resource type="Script" path="res://scenes/quests/story_quests/investigadora_cibern/2_void_runner/components/investigadora_cibern_tutorial_void_runner.gd" id="1_e2tsu"]
 [ext_resource type="TileSet" uid="uid://b8qnr0owsbhhn" path="res://tiles/exterior_floors.tres" id="2_xpvup"]
 [ext_resource type="TileSet" uid="uid://do0ffypatd77h" path="res://tiles/bridges.tres" id="3_uyv1t"]
 [ext_resource type="Material" uid="uid://64aeyjitacv3" path="res://scenes/game_elements/props/void/void_chromakey_material.tres" id="4_cbkl1"]
@@ -13,7 +13,7 @@
 [ext_resource type="Script" uid="uid://bgmwplmj3bfls" path="res://scenes/globals/game_state/inventory/inventory_item.gd" id="11_tih08"]
 [ext_resource type="PackedScene" uid="uid://cokul8w425pja" path="res://scenes/quests/lore_quests/quest_002/1_void_runner/components/void_spreading_enemy.tscn" id="12_cqkgs"]
 [ext_resource type="PackedScene" uid="uid://b2mj4jggli0ci" path="res://scenes/quests/lore_quests/quest_000/tutorial_npc/tutorial_npc.tscn" id="13_tpt8o"]
-[ext_resource type="Resource" uid="uid://bf8ijgu3jlfvm" path="res://scenes/quests/story_quests/investigadora_cibern/2_void_runner/components/tutorial_void_runner.dialogue" id="14_bvx4j"]
+[ext_resource type="Resource" path="res://scenes/quests/story_quests/investigadora_cibern/2_void_runner/components/investigadora_cibern_tutorial_void_runner.dialogue" id="14_bvx4j"]
 [ext_resource type="Script" uid="uid://x1mxt6bmei2o" path="res://scenes/ui_elements/cinematic/cinematic.gd" id="15_fi48u"]
 [ext_resource type="Script" uid="uid://c8405c212rbn6" path="res://scenes/game_elements/props/background_music/components/background_music.gd" id="16_wogoc"]
 [ext_resource type="AudioStream" uid="uid://bwgtbylflkup2" path="res://scenes/quests/lore_quests/quest_002/components/void_music.tres" id="17_y62jn"]

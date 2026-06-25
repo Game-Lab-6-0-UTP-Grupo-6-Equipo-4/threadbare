@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://lky4282fl8gg"
+path="res://.godot/imported/investigadora_cibern_tutorial_void_runner.dialogue-9bcd849676f27c958403bf2ee63011a8.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/investigadora_cibern/2_void_runner/components/investigadora_cibern_tutorial_void_runner.dialogue"
+dest_files=["res://.godot/imported/investigadora_cibern_tutorial_void_runner.dialogue-9bcd849676f27c958403bf2ee63011a8.tres"]
+
+[params]
+
+defaults=true
