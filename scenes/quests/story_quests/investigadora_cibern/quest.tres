@@ -5,5 +5,8 @@
 [resource]
 script = ExtResource("1_qwqc3")
 title = "investigadora cibernetica"
+description = "La detective cibernética Elara, una androide forense con sus propias memorias corrompidas por un virus enigmático, investiga el meticuloso robo de conciencias digitales, un crimen brutal que vacía las mentes de ciudadanos inocentes para vender sus conocimientos especializados al mejor postor en el peligroso mercado negro de datos, durante el gran apagón solar del año 2154, una década marcada por la oscuridad perpetua, el racionamiento de energía y un profundo colapso tecnológico."
+authors = Array[String](["Jhunior Collantes Meza", "Víctor Andrés Flores Paredes", "Luis André Granados Fajardo", "Ruben Castro Laos", "Ariana Milagros Canelo Muñante"])
+affiliation = "UTP"
 first_scene = "uid://p3eiurgcy3c7"
 metadata/_custom_type_script = "uid://dts1hwdy3phin"
