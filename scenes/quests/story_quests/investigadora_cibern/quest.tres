@@ -1,6 +1,7 @@
 [gd_resource type="Resource" script_class="Quest" format=3 uid="uid://b85ip1rsqsne8"]
 
 [ext_resource type="Script" uid="uid://dts1hwdy3phin" path="res://scenes/menus/storybook/components/quest.gd" id="1_qwqc3"]
+[ext_resource type="SpriteFrames" uid="uid://butju16yy6mq6" path="res://scenes/quests/story_quests/investigadora_cibern/player_components/investigadora_cibern_player.tres" id="2_7tixu"]
 
 [resource]
 script = ExtResource("1_qwqc3")
@@ -9,4 +10,6 @@ description = "La detective cibernética Elara, una androide forense con sus pro
 authors = Array[String](["Jhunior Collantes Meza", "Víctor Andrés Flores Paredes", "Luis André Granados Fajardo", "Ruben Castro Laos", "Ariana Milagros Canelo Muñante"])
 affiliation = "UTP"
 first_scene = "uid://p3eiurgcy3c7"
+sprite_frames = ExtResource("2_7tixu")
+animation_name = &"idle"
 metadata/_custom_type_script = "uid://dts1hwdy3phin"
